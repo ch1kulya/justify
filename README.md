@@ -1,6 +1,5 @@
 ## SpicetifyDarkTheme
 is just a dark and minimalistic theme for spicetify.
-### Screenshot
 ![screenshot](./screenshots/image.png)
 ### Usage
 Install spicetify. Then copy `./DarkTheme` dir to the `Theme` folder and apply theme just by running: 
