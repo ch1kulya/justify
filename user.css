@@ -1,3 +1,7 @@
+*:not(html):not(body):not(head):not(title):not(meta):not(link):not(script):not(style):not(svg) {
+  border-radius: 0.2rem !important;
+}
+
 /* transparent window controls background */
 .spotify__container--is-desktop:not(.fullscreen) body::after {
   content: "";
@@ -44,4 +48,23 @@
 
 .main-userWidget-chevron {
   display: none;
+}
+.profile-userOverview-imageContainer {
+  display: none;
+}
+.main-coverSlotCollapsed-container {
+  display: none;
+}
+.main-entityHeader-background,
+.main-entityHeader-backgroundColor,
+.main-entityHeader-overlay,
+.main-actionBarBackground-background,
+.main-buddyFeed-container,
+.main-nowPlayingView-content.main-nowPlayingView-gradient {
+    background-color: transparent !important;
+    background-image: none;
+}
+
+.BV0jjn_h5TtMMl8YKuZ0 {
+  border: none;
 }
